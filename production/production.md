@@ -10,22 +10,22 @@
 
 # Step 1
 
-[ Setup Portainer]('./portainer/portainer.md')
+[ Setup Portainer](./portainer/portainer.md)
 
 after successfully setup portainer
 go to "portainer.example.com"
 
 # Step 2
 
-[ Create Erpnext Stack and Restore Mariadb Database]('./yaml/erpnext.md')
+[ Create Erpnext Stack and Restore Mariadb Database](./yaml/erpnext.md)
 
 # Step 3
 
-[ Create Mongodb-Replica Stack and Restore Mongo Database]('./yaml/mongo.md')
+[ Create Mongodb-Replica Stack and Restore Mongo Database](./yaml/mongo.md)
 
 # Step 4
 
-[ Create RMA-Server Stack]('./yaml/rma-server.md')
+[ Create RMA-Server Stack](./yaml/rma-server.md)
 
 # Once done everything we need to configure some basic changes
 
