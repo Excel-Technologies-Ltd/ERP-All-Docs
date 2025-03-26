@@ -192,7 +192,7 @@ networks:
   traefik-public:
     external: true
   frappe_network:
-    external: true
+    external: false
 ```
 
 # ENV
