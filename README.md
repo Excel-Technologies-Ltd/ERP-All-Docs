@@ -1,3 +1,6 @@
+# Frappe Docs
+[Frappe](./Frappe/)
+
 # ETL ERP and RMA Docs
 
 [ETL Development Setup](./development/development.md)
