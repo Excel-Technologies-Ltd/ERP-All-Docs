@@ -1,0 +1,3 @@
+```sql
+SET SQL_SAFE_UPDATES=1;
+```
