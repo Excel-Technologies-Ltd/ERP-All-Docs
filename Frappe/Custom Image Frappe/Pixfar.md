@@ -1,5 +1,5 @@
 # Pixfar
-```json
+```plain text
 export APPS_JSON='[
 {
 "url": "https://github.com/frappe/erpnext",
