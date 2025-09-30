@@ -14,7 +14,7 @@ export APPS_JSON='[
    "branch": "main"
    },
    {
-   "url": "https://gitlab.com/arcapps/excel_erpnext.git",
+   "url": "https://github.com/Excel-Technologies-Ltd/Excel-ERPNext.git",
    "branch": "version-14"
    }
 ]
@@ -23,7 +23,7 @@ export APPS_JSON='[
 export APPS_JSON_BASE64=$(echo ${APPS_JSON} | base64 -w 0)
 
 docker buildx build \
---no-cache \
+ --no-cache \
  --build-arg FRAPPE_PATH=https://github.com/frappe/frappe \
  --build-arg FRAPPE_BRANCH=v14.64.0 \
  --build-arg PYTHON_VERSION=3.11.9 \
